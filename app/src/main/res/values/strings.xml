@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">InfInITy 2k19</string>
+    <string name="registration">Registration</string>
+    <string name="Strings" />
+    <string name="str1">Contact Us</string>
+    <string name="live_leaderboard">Live Leaderboard</string>
+    <string name="testmonials">Testmonials</string>
+    <string name="previous_questions">Previous Questions</string>
+    <string name="logo">Logo</string>
+    <string name="faqs">FAQs</string>
+    <string name="feedback">feedback</string>
+    <string name="regstr">regstr</string>
+    <string name="liveranking">liveranking</string>
+    <string name="faqsss">faqsss</string>
+    <string name="contact">contact</string>
+
+    <string-array name="Questions_Name">
+        <item>Bahubali</item>
+        <item>Why Five</item>
+        <item>Triangle Trouble</item>
+        <item>Love All Letters</item>
+        <item>Caught You</item>
+        <item>The Ego Stone</item>
+        <item>Skip It!</item>
+        <item>Pari N Prime</item>
+        <item>Simple Series</item>
+        <item>Distribute Chocolates</item>
+    </string-array>
+    <string-array name="Year">
+        <item>2017</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+        <item>2018</item>
+    </string-array>
+
+</resources>

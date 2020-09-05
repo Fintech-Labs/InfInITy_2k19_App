@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestimonialActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="Testimonials"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="60dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/darshanlokhande"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/darshan"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp">
+            <TextView
+                android:id="@+id/darshantext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Darshan Lokhande"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IIIT Pune Rank 1"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="InfInITY 2k18"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="InfInITy 2k18 was one of the best experiences of my freshmen year at IIIT Pune. I was already doing competitive programming since start of academic year, so Winning InfInIty at college level was just a cherry on top. I personally focused on solving more and more problems, provided I gave sufficient time for reading various algorithms and solved multiple contests. \n\nFor beginners, I suggest to focus more on basic CP concepts like Greedy, Binary Search, Basic DS, STL and their implementation to crack InfInIty. During contest, it is very essential to target the easy problems. These give you a head start. Next comes accuracy, which becomes deciding factor in the rank list. So make sure to be fast, accurate during the contest. I suggest solve more contests on online coding platforms, mostly codechef!\n\nKeep Calm and Code on!"/>
+
+
+</LinearLayout>

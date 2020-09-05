@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:text="About"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="60dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="InfInITy is IIIT Pune's annual flagship coding contest hosted every year on Codechef. A 3 hour coding contest that's guaranteed to get your head itching and your heart wanting more. InfInITy started in 2017 and was limited only to IIIT Pune. Last year, InfInITy was made open to everyone and witnessed more than 2000 submissions all over the globe within 3 hours. Himanshu Jaju (Google) was the global winner last year.\n\nThe contest follows ACM style scoring and consists of problems designed for particpants ranging from beginners to experts. Anyone having a knack for coding is encouraged to participate."/>
+
+
+    </LinearLayout>
+</ScrollView>
